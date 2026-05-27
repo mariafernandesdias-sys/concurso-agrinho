@@ -1,0 +1,102 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#f4f4f4;
+}
+
+header{
+  background:#2e7d32;
+  color:white;
+  text-align:center;
+  padding:30px;
+}
+
+.banner img{
+  width:100%;
+  height:400px;
+  object-fit:cover;
+}
+
+.video{
+  text-align:center;
+  padding:40px;
+}
+
+.cards{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  padding:40px;
+  flex-wrap:wrap;
+}
+
+.card{
+  background:white;
+  width:300px;
+  border-radius:15px;
+  overflow:hidden;
+  box-shadow:0 0 10px rgba(0,0,0,0.2);
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:scale(1.05);
+}
+
+.card img{
+  width:100%;
+  height:200px;
+  object-fit:cover;
+}
+
+.card h3{
+  padding:10px;
+  color:#2e7d32;
+}
+
+.card p{
+  padding:10px;
+}
+
+.artigos{
+  background:white;
+  padding:40px;
+}
+
+.artigo{
+  margin-bottom:20px;
+  border-left:5px solid green;
+  padding-left:15px;
+}
+
+.ia{
+  text-align:center;
+  padding:50px;
+}
+
+button{
+  background:green;
+  color:white;
+  border:none;
+  padding:15px 25px;
+  border-radius:10px;
+  font-size:18px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#1b5e20;
+}
+
+#curiosidade{
+  margin-top:30px;
+  font-size:20px;
+  color:#333;
+}
+
+footer{
+  background:#2e7d32;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
