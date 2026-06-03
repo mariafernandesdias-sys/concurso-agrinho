@@ -1,90 +1,104 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Agrinho Sustentável</title>
-
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agrinho 2026 - Inovação e Sustentabilidade no Agro</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-  <h1>Agro Forte, Futuro Sustentável</h1>
-  <p>Tecnologia e sustentabilidade caminhando juntas</p>
+    <h1>Inovação e Sustentabilidade no Agro</h1>
+    <p>Tecnologia para um futuro mais sustentável</p>
 </header>
 
+<nav>
+    <a href="#tecnologias">Tecnologias</a>
+    <a href="#sustentabilidade">Sustentabilidade</a>
+    <a href="#artigos">Artigos Científicos</a>
+    <a href="#ia">IA Curiosidades</a>
+</nav>
+
 <section class="banner">
-  <img src="imagens/agro.jpg" alt="Agro sustentável">
+    <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854" alt="Agricultura">
 </section>
 
-<section class="video">
-  <h2>Vídeo sobre inovação no agro</h2>
-
-  <video controls width="700">
-    <source src="videos/agro.mp4" type="video/mp4">
-  </video>
+<section id="video">
+    <h2>Vídeo sobre Agricultura Sustentável</h2>
+    <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/R6Y7j8P7m2s"
+    allowfullscreen></iframe>
 </section>
 
-<section class="cards">
+<section id="tecnologias">
+    <h2>Tecnologias no Agro</h2>
 
-  <div class="card">
-    <img src="https://portalagrigent.com/wp-content/uploads/2021/03/Drone-agricola-veja-porque-voce-precisa-dele-e-como-escolher-um.jpg-Agrigent.jpg">
-    <h3>Drones Agrícolas</h3>
-    <p>Os drones ajudam no monitoramento das plantações e reduzem desperdícios.</p>
-  </div>
+    <div class="card">
+        <h3>🚁 Drones Agrícolas</h3>
+        <p>Monitoram plantações, detectam pragas e reduzem desperdícios.</p>
+    </div>
 
-  <div class="card">
-    <img src="imagens/solar.jpg">
-    <h3>Energia Solar</h3>
-    <p>Fazendas sustentáveis usam energia limpa para reduzir impactos ambientais.</p>
-  </div>
+    <div class="card">
+        <h3>📡 Sensores IoT</h3>
+        <p>Medem umidade do solo e ajudam na irrigação inteligente.</p>
+    </div>
 
-  <div class="card">
-    <img src="imagens/iot.jpg">
-    <h3>Sensores Inteligentes</h3>
-    <p>Os sensores medem umidade do solo e ajudam na economia de água.</p>
-  </div>
-
+    <div class="card">
+        <h3>🤖 Inteligência Artificial</h3>
+        <p>Analisa dados e auxilia produtores na tomada de decisões.</p>
+    </div>
 </section>
 
-<section class="artigos">
-  <h2>Trechos Científicos</h2>
+<section id="sustentabilidade">
+    <h2>Sustentabilidade no Campo</h2>
 
-  <div class="artigo">
-    <p>
-      “A agricultura de precisão aumenta a eficiência e reduz impactos ambientais.”
-    </p>
-
-    <span>Revista Brasileira de Agricultura Sustentável</span>
-  </div>
-
-  <div class="artigo">
-    <p>
-      “Tecnologias inteligentes auxiliam no uso consciente da água.”
-    </p>
-
-    <span>Embrapa</span>
-  </div>
+    <ul>
+        <li>Uso eficiente da água</li>
+        <li>Redução de agrotóxicos</li>
+        <li>Conservação do solo</li>
+        <li>Controle biológico de pragas</li>
+        <li>Energia solar nas propriedades rurais</li>
+    </ul>
 </section>
 
-<section class="ia">
+<section id="artigos">
+    <h2>Trechos de Artigos Científicos</h2>
 
-  <h2>IA das Curiosidades</h2>
+    <div class="artigo">
+        <p>
+        "A adoção de tecnologias inovadoras oferece oportunidades para aumentar a produtividade,
+        reduzir o uso de insumos e promover a sustentabilidade no setor agropecuário."
+        </p>
+    </div>
 
-  <button onclick="gerarCuriosidade()">
-    Gerar Curiosidade
-  </button>
+    <div class="artigo">
+        <p>
+        "A Agricultura 4.0 utiliza tecnologias digitais para melhorar a eficiência e a sustentabilidade das cadeias produtivas."
+        </p>
+    </div>
 
-  <div id="curiosidade"></div>
+    <div class="artigo">
+        <p>
+        "Há tendência de investimentos em irrigação inteligente, controle biológico de pragas e tecnologias de manejo do solo."
+        </p>
+    </div>
+</section>
 
+<section id="ia">
+    <h2>IA de Curiosidades</h2>
+
+    <button onclick="gerarCuriosidade()">
+        Gerar Curiosidade
+    </button>
+
+    <p id="resultado"></p>
 </section>
 
 <footer>
-  <p>Projeto Agrinho 2026 - Tecnologia e Sustentabilidade</p>
+    <p>Projeto Agrinho 2026 - Tecnologia e Sustentabilidade</p>
 </footer>
 
 <script src="script.js"></script>
-
 </body>
 </html>
