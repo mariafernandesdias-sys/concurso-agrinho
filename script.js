@@ -1,23 +1,15 @@
 const curiosidades = [
-
-"Um drone pode monitorar centenas de hectares em poucas horas.",
-
-"A irrigação inteligente reduz o desperdício de água.",
-
-"Sensores conectados à internet ajudam produtores a prever problemas na lavoura.",
-
-"A inteligência artificial consegue identificar doenças em plantas através de imagens.",
-
-"O controle biológico utiliza organismos naturais para combater pragas.",
-
-"A agricultura de precisão diminui custos e impactos ambientais.",
-
-"Painéis solares já são utilizados em muitas propriedades rurais."
+"Um drone agrícola pode monitorar dezenas de hectares em poucas horas.",
+"Sensores IoT ajudam a economizar água ao irrigar apenas quando necessário.",
+"A Agricultura 4.0 utiliza inteligência artificial para prever problemas na lavoura.",
+"Alguns drones conseguem identificar doenças nas plantas antes que sejam visíveis ao olho humano.",
+"A agricultura de precisão reduz desperdícios e aumenta a produtividade.",
+"Painéis solares já são utilizados em propriedades rurais para gerar energia limpa.",
+"Robôs agrícolas podem auxiliar no plantio e monitoramento das culturas.",
+"A tecnologia ajuda produtores a usar menos recursos naturais e produzir mais alimentos."
 ];
 
-function gerarCuriosidade(){
-let sorteio = Math.floor(Math.random()*curiosidades.length);
-
-document.getElementById("resultado").innerHTML =
-curiosidades[sorteio];
+function gerarCuriosidade() {
+const sorteio = Math.floor(Math.random() * curiosidades.length);
+document.getElementById("resultado").innerHTML = curiosidades[sorteio];
 }
