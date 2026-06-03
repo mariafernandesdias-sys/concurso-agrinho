@@ -1,104 +1,113 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Agrinho 2026 - Inovação e Sustentabilidade no Agro</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<header>
-    <h1>Inovação e Sustentabilidade no Agro</h1>
-    <p>Tecnologia para um futuro mais sustentável</p>
-</header>
-
-<nav>
-    <a href="#tecnologias">Tecnologias</a>
-    <a href="#sustentabilidade">Sustentabilidade</a>
-    <a href="#artigos">Artigos Científicos</a>
-    <a href="#ia">IA Curiosidades</a>
-</nav>
-
-<section class="banner">
-    <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854" alt="Agricultura">
-</section>
+<!-- VÍDEO REAL DO YOUTUBE -->
 
 <section id="video">
-    <h2>Vídeo sobre Agricultura Sustentável</h2>
-    <iframe width="560" height="315"
-    src="https://www.youtube.com/watch?v=wOeXXX8v6ok"
-    allowfullscreen></iframe>
+    <h2>Vídeo: Drones na Agricultura de Precisão</h2>
+
+```
+<iframe
+    width="800"
+    height="450"
+    src="https://www.youtube.com/embed/KFu-U2N8AWk"
+    title="Drones Agrícolas"
+    frameborder="0"
+    allowfullscreen>
+</iframe>
+```
+
 </section>
+
+<!-- TECNOLOGIAS -->
 
 <section id="tecnologias">
     <h2>Tecnologias no Agro</h2>
 
-    <div class="card">
+```
+<div class="tecnologia">
+    <img src="imagens/drone-agricola.jpg" alt="Drone Agrícola">
+
+    <div class="texto">
         <h3>🚁 Drones Agrícolas</h3>
-        <p>Monitoram plantações, detectam pragas e reduzem desperdícios.</p>
+        <p>
+            Os drones agrícolas realizam monitoramento das lavouras,
+            identificam pragas e ajudam a reduzir desperdícios de água,
+            fertilizantes e defensivos.
+        </p>
     </div>
+</div>
 
-    <div class="card">
+<div class="tecnologia">
+    <img src="imagens/sensor-iot.jpg" alt="Sensor IoT">
+
+    <div class="texto">
         <h3>📡 Sensores IoT</h3>
-        <p>Medem umidade do solo e ajudam na irrigação inteligente.</p>
+        <p>
+            Sensores inteligentes monitoram umidade do solo,
+            temperatura e condições climáticas em tempo real,
+            permitindo uma irrigação mais eficiente.
+        </p>
     </div>
+</div>
 
-    <div class="card">
+<div class="tecnologia">
+    <img src="imagens/ia-agro.jpg" alt="Inteligência Artificial">
+
+    <div class="texto">
         <h3>🤖 Inteligência Artificial</h3>
-        <p>Analisa dados e auxilia produtores na tomada de decisões.</p>
+        <p>
+            A IA analisa dados da produção agrícola e auxilia
+            produtores na tomada de decisões mais sustentáveis.
+        </p>
     </div>
+</div>
+```
+
 </section>
 
-<section id="sustentabilidade">
-    <h2>Sustentabilidade no Campo</h2>
-
-    <ul>
-        <li>Uso eficiente da água</li>
-        <li>Redução de agrotóxicos</li>
-        <li>Conservação do solo</li>
-        <li>Controle biológico de pragas</li>
-        <li>Energia solar nas propriedades rurais</li>
-    </ul>
-</section>
+<!-- ARTIGOS CIENTÍFICOS -->
 
 <section id="artigos">
-    <h2>Trechos de Artigos Científicos</h2>
+    <h2>Inovações Científicas no Agro</h2>
 
-    <div class="artigo">
-        <p>
-        "A adoção de tecnologias inovadoras oferece oportunidades para aumentar a produtividade,
-        reduzir o uso de insumos e promover a sustentabilidade no setor agropecuário."
-        </p>
-    </div>
+```
+<div class="artigo">
+    <h3>Agricultura 4.0</h3>
+    <p>
+        A Agricultura 4.0 utiliza tecnologias digitais para aumentar
+        a produtividade e reduzir o uso de insumos, contribuindo para
+        uma produção mais sustentável.
+    </p>
+</div>
 
-    <div class="artigo">
-        <p>
-        "A Agricultura 4.0 utiliza tecnologias digitais para melhorar a eficiência e a sustentabilidade das cadeias produtivas."
-        </p>
-    </div>
+<div class="artigo">
+    <h3>Sustentabilidade e Tecnologia</h3>
+    <p>
+        Sistemas inteligentes e sensores permitem monitorar o solo,
+        a água e as plantações, reduzindo impactos ambientais.
+    </p>
+</div>
 
-    <div class="artigo">
-        <p>
-        "Há tendência de investimentos em irrigação inteligente, controle biológico de pragas e tecnologias de manejo do solo."
-        </p>
-    </div>
+<div class="artigo">
+    <h3>Internet das Coisas no Campo</h3>
+    <p>
+        Sensores conectados fornecem dados em tempo real para melhorar
+        o manejo agrícola e economizar recursos naturais.
+    </p>
+</div>
+```
+
 </section>
+
+<!-- IA DE CURIOSIDADES -->
 
 <section id="ia">
-    <h2>IA de Curiosidades</h2>
+    <h2>🤖 IA de Curiosidades do Agro</h2>
 
-    <button onclick="gerarCuriosidade()">
-        Gerar Curiosidade
-    </button>
+```
+<button onclick="gerarCuriosidade()">
+    Descobrir Curiosidade
+</button>
 
-    <p id="resultado"></p>
+<p id="resultado"></p>
+```
+
 </section>
-
-<footer>
-    <p>Projeto Agrinho 2026 - Tecnologia e Sustentabilidade</p>
-</footer>
-
-<script src="script.js"></script>
-</body>
-</html>
