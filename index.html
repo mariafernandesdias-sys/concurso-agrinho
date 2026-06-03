@@ -1,41 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agrinho 2026 - Inovação e Sustentabilidade no Agro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Inovação e Sustentabilidade no Agro</h1>
+    <p>Tecnologia para um futuro mais sustentável</p>
+</header>
+
+<nav>
+    <a href="#tecnologias">Tecnologias</a>
+    <a href="#sustentabilidade">Sustentabilidade</a>
+    <a href="#artigos">Artigos Científicos</a>
+    <a href="#ia">IA Curiosidades</a>
+</nav>
+
+<section class="banner">
+    <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854" alt="Agricultura">
+</section>
+
+<section id="video">
+    <h2>Vídeo sobre Agricultura Sustentável</h2>
+    <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/R6Y7j8P7m2s"
+    allowfullscreen></iframe>
+</section>
+
 <section id="tecnologias">
     <h2>Tecnologias no Agro</h2>
 
-    <div class="tecnologia">
-        <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8" alt="Drone agrícola">
-
-        <div class="texto">
-            <h3>🚁 Drones Agrícolas</h3>
-            <p>
-                Os drones agrícolas monitoram plantações, identificam pragas,
-                analisam falhas no cultivo e ajudam a reduzir desperdícios de
-                fertilizantes e defensivos.
-            </p>
-        </div>
+    <div class="card">
+        <h3>🚁 Drones Agrícolas</h3>
+        <p>Monitoram plantações, detectam pragas e reduzem desperdícios.</p>
     </div>
 
-    <div class="tecnologia">
-        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475" alt="Sensores IoT">
-
-        <div class="texto">
-            <h3>📡 Sensores IoT</h3>
-            <p>
-                Sensores conectados à internet monitoram a umidade do solo,
-                temperatura e condições climáticas em tempo real,
-                auxiliando na irrigação inteligente.
-            </p>
-        </div>
+    <div class="card">
+        <h3>📡 Sensores IoT</h3>
+        <p>Medem umidade do solo e ajudam na irrigação inteligente.</p>
     </div>
 
-    <div class="tecnologia">
-        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995" alt="Inteligência Artificial">
-
-        <div class="texto">
-            <h3>🤖 Inteligência Artificial</h3>
-            <p>
-                A Inteligência Artificial analisa grandes quantidades de dados,
-                identifica padrões e auxilia produtores na tomada de decisões.
-            </p>
-        </div>
+    <div class="card">
+        <h3>🤖 Inteligência Artificial</h3>
+        <p>Analisa dados e auxilia produtores na tomada de decisões.</p>
     </div>
 </section>
+
+<section id="sustentabilidade">
+    <h2>Sustentabilidade no Campo</h2>
+
+    <ul>
+        <li>Uso eficiente da água</li>
+        <li>Redução de agrotóxicos</li>
+        <li>Conservação do solo</li>
+        <li>Controle biológico de pragas</li>
+        <li>Energia solar nas propriedades rurais</li>
+    </ul>
+</section>
+
+<section id="artigos">
+    <h2>Trechos de Artigos Científicos</h2>
+
+    <div class="artigo">
+        <p>
+        "A adoção de tecnologias inovadoras oferece oportunidades para aumentar a produtividade,
+        reduzir o uso de insumos e promover a sustentabilidade no setor agropecuário."
+        </p>
+    </div>
+
+    <div class="artigo">
+        <p>
+        "A Agricultura 4.0 utiliza tecnologias digitais para melhorar a eficiência e a sustentabilidade das cadeias produtivas."
+        </p>
+    </div>
+
+    <div class="artigo">
+        <p>
+        "Há tendência de investimentos em irrigação inteligente, controle biológico de pragas e tecnologias de manejo do solo."
+        </p>
+    </div>
+</section>
+
+<section id="ia">
+    <h2>IA de Curiosidades</h2>
+
+    <button onclick="gerarCuriosidade()">
+        Gerar Curiosidade
+    </button>
+
+    <p id="resultado"></p>
+</section>
+
+<footer>
+    <p>Projeto Agrinho 2026 - Tecnologia e Sustentabilidade</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
